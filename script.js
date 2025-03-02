@@ -1,5 +1,4 @@
 let userInput;
-let isRGBOn = false;
 let drawBoard = true;
 
 const container = document.querySelector(".container");
@@ -7,6 +6,8 @@ const cols = document.getElementsByClassName("col");
 const btnClear = document.getElementById("btnClear");
 const btnChangeSize = document.getElementById("btnChangeSize");
 const toggleBtn = document.getElementById("toggleBox");
+
+let isRGBOn = toggleBtn.checked;
 
 function start(numRowsCols=16,drawBoard){
     if(drawBoard){
