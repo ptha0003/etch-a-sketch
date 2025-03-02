@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #b92f13 ;
+}
+
+.mainBody{
+    display: flex;
+    gap: 50px;
+}
+
+.mainBodyBtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mainToggle{
+    display: flex;
+    justify-content: center;
+    gap:8px;
+}
+
+.toggleTxt{
+    font-family: "THin Pencil Handwriting", sans-serif;
+    font-weight: 900;
+    color: #F8AB33;
+}
+
+#toggleBox{
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+h1{
+    font-family: "THin Pencil Handwriting", sans-serif;
+    font-size: 96px;
+    text-align: center;
+    font-weight: 900;
+    color: #F8AB33;
+}
+
+#btnClear{
+    font-family: "THin Pencil Handwriting", sans-serif;
+    font-size: 48px;
+    background-color:  #b92f13;;
+    border: #b92f13;
+    font-weight: 900;
+    color: #F8AB33;
+}
+
+#btnChangeSize{
+    font-family: "THin Pencil Handwriting", sans-serif;
+    font-size: 48px;
+    background-color:  #b92f13;;
+    border: #b92f13;
+    font-weight: 900;
+    color: #F8AB33;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width:700px;
+    height:700px;
+    border-radius: 12px;
+    padding: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.row{
+    display: flex;
+    flex: 1;
+    border: 1px solid #c0c0c0;
+    border-bottom: none;
+}
+
+.col{
+    flex: 1;
+    background-color: #c0c0c0;
+    border: 1px solid #c0c0c0;
+}
+
